@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Feedback Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Your Feedback is important to us</h1>
+    <div class="Feedback">
+        <form action="/submit-form" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your Email" required>
+
+            <p class="rating-title">Give us rating:</p>
+            
+            <input type="radio" id="excellent" name="experience" value="excellent">
+            <label for="excellent" class="radio-label">Excellent</label><br>
+
+            <input type="radio" id="good" name="experience" value="good">
+            <label for="good" class="radio-label">Good</label><br>
+
+            <input type="radio" id="bad" name="experience" value="bad">
+            <label for="bad" class="radio-label">Bad</label><br>
+
+            <input type="radio" id="worst" name="experience" value="worst">
+            <label for="worst" class="radio-label">Worst</label><br>
+
+            <label for="suggestions">Your Suggestions:</label>
+            <textarea id="suggestions" name="suggestions" placeholder="Enter Your Feedback" rows="5" cols="30"></textarea>
+
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
