@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h2 {
+  text-align: center;
+  color: darkblue;
+}
+
+label {
+  display: block;
+  margin: 8px 0;
+}
+
+input {
+  padding: 5px;
+  margin-left: 10px;
+}
+
+button {
+  margin: 5px;
+  padding: 6px 12px;
+  background: lightblue;
+  border: 1px solid #333;
+  cursor: pointer;
+}
+
+button:hover {
+  background: skyblue;
+}
+
+#output {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #aaa;
+}
