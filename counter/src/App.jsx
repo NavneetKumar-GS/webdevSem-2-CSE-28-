@@ -13,7 +13,7 @@ function App() {
         <div>
           <h1>This is a normal counter app</h1>
           <p>
-            Click  <code>src/App.jsx</code> and save to test <code>HMR</code>
+            Click on the <code>count is 0</code> button to test <code>Working</code>
           </p>
         </div>
         <button
