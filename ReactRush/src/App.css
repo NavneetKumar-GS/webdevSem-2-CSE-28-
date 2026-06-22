@@ -1,0 +1,19 @@
+.game-container {
+  width: 100vw;
+  height: 100vh;
+  background: #1a1a1a;
+  overflow: hidden;
+  position: relative;
+  color: white;
+  font-family: sans-serif;
+}
+
+.title { text-align: center; margin-top: 20px; color: #ffeb3b; }
+.score-board { font-size: 24px; margin-left: 20px; }
+
+/* Components ke liye base style */
+.game-obj { 
+  position: absolute; 
+  font-size: 40px; 
+  transition: all 0.1s linear; 
+}
